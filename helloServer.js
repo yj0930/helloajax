@@ -36,7 +36,7 @@ http.createServer(function(request, response) {
     }
   }
   function echo(name) {
-    var responseString = "No Hello!";
+    var responseString = "Hello anonymous";
     if (name == null) {
       console.error("name null");
     }
